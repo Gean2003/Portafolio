@@ -349,12 +349,19 @@ h4 {
 @media screen and (min-width: 320px){
     
     .hero__container{
-	height: 800px;
+	height: 900px;
 	position: relative;
     }
 
     .hero__social{
 	bottom:-30px;
+    }
+
+    .check__btn{
+	border: none;
+	font-size: 20px;
+	background: none;
+	margin-right: 15px
     }
 
     .hero__txt{
@@ -756,13 +763,19 @@ h4 {
 	position: absolute;
 	width: 30%;
 	bottom: 0;
-	left: 30%;
+	left: 35%;
 	margin:0;
     }
 
     .about__tittle{
 	margin-bottom: 30px
     }
+
+    .about__txt{
+	font-size: 24px;
+    }
+
+    
 
     .section__hablities{
 	margin-bottom: 70px;
@@ -833,6 +846,7 @@ h4 {
     .btn__contact{
 	position: absolute;
 	bottom: 0;
+	left: 35%;
 	margin: 0;
     }
 
@@ -855,5 +869,9 @@ h4 {
 
     .social i:hover{
 	color: #5D3BEF;
+    }
+
+    .about__txt{
+	font-size: 24px;
     }
 }
