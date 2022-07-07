@@ -1,9 +1,9 @@
-const btnMenu = document.querySelector('.btn')
-const navMenu = document.querySelector('.menu__display')
+const btnMenu = document.querySelector('.check__btn')
+const Menu = document.querySelector(".nav__menu");
 
 /* Menu Navbar */
-btnMenu.addEventListener('click', function () {
-  navMenu.classList.toggle('.menu__visible')
-})
+btnMenu.addEventListener("click" , () => {
+  Menu.classList.toggle(".nav__menu_visible")
+});
 
 
