@@ -3,7 +3,7 @@ const Menu = document.querySelector(".nav__menu");
 
 /* Menu Navbar */
 btnMenu.addEventListener("click" , () => {
-  Menu.classList.toggle(".nav__menu_visible")
+  Menu.classList.toggle("nav__menu_visible")
 });
 
 
