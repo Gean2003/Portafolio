@@ -14,6 +14,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     height: 1024px;
+    max-width:1024px;
+    margin: 0 auto;
 }
 
 .hero__txt span{
@@ -53,8 +55,9 @@ body {
 }
 
 .hero__container {
+
     width: 90%;
-    margin: 0 auto;
+    margin: 40px  auto 0 auto;
     height: 550px;
     text-align: center;
     margin-bottom: 70px;
@@ -708,6 +711,7 @@ h4 {
 	display: grid;
 	height: 500px;
 	grid-template-columns: 1fr 1fr;
+
     }
 
     .hero__container-txt{
@@ -716,7 +720,7 @@ h4 {
      display: block;
     }
 	.typed{
-    font-weight: bold;
+    font-weight: bold; 
 }
     .hero__tittle{
 	height: 100px;
@@ -856,7 +860,7 @@ h4 {
 	width: 100px;
 	height: 100px;
 	margin-bottom: 200px;
-	font-size: 100px;
+	font-size: 90px;
     }
 
 
@@ -956,11 +960,13 @@ h4 {
 }
 
 @media screen and (min-width:1920px){
+
     .hero__container{
 	position: relative;
 	height: 70vh;
     }
     
+
 
     .nav__menu{
 	display: none;
