@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 import github from '../assets/icons8-github-100.svg'
 import linkedin from '../assets/icons8-linkedin-100.svg'
 import IconsPages from './IconsPages'
-import cv from '../assets/Gean_Franco Saboya Rodriguez_Resume_v2.pdf'
+import cv from '../assets/Gean_Franco Saboya Rodriguez_Resume_v2R.pdf'
 
 const ProfileCard = () => {
 
