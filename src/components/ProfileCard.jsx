@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 import github from '../assets/icons8-github-100.svg'
 import linkedin from '../assets/icons8-linkedin-100.svg'
 import IconsPages from './IconsPages'
-import cv from '../assets/Gean_Franco Saboya Rodriguez_Resume_v2R.pdf'
+import cv from '../assets/Gean_FrancoSR.pdf'
 
 const ProfileCard = () => {
 
@@ -44,7 +44,7 @@ const ProfileCard = () => {
             </a>
           </li>
           <li className='lg:cursor-pointer hover:scale-105 lg:transition-all z-10'>
-            <a target="_blank" href="https://www.linkedin.com/in/gean-franco-saboya-rodr%C3%ADguez-57105724a/">
+            <a target="_blank" href="https://www.linkedin.com/in/gean-franco-saboya-rodriguez-57105724a/">
               <img src={linkedin} className='w-[35px]' alt="linkedin_logo" />
             </a>
           </li>
